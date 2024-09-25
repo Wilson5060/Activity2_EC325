@@ -158,6 +158,8 @@ max_stream_stage <- floods %>%
   summarize(max_gheight = max(gheight.ft, na.rm = TRUE),  major_ft = first(major.ft)) %>%
   mutate(gheight_less_major = max_gheight - major_ft) 
 
+# Homework Question 4
+# https://github.com/Wilson5060/Activity2_EC325
 
 
 
